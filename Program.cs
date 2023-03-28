@@ -26,3 +26,9 @@ for (int i = 0; i < s.Length; i++)
         current_index++;
     }
 }
+
+Console.WriteLine("Новый массив : ");
+for (int i = 0; i < new_s.Length; i++)
+{
+    Console.Write(new_s[i] + " ");
+}
